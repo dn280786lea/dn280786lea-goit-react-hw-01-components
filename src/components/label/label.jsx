@@ -1,8 +1,8 @@
-import styled from './styled.css';
+import {} from './styled.css';
 
 const Statistics = ({ title ,stats }) => {
   return (
-      <div className="styled label-container ">
+      <div className="label-info label-container ">
           <h2 className="title-label">Upload stats</h2>
           <ul className="stat-list">
                 {stats.map((stat) => (

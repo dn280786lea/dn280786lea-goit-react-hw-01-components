@@ -1,8 +1,9 @@
+import styled from './styled.css';
 
 const Statistics = ({ title ,stats }) => {
   return (
-      <div >
-          <h2 className="title">Upload stats</h2>
+      <div className="label-info label-container">
+          <h2 className="title-label">Upload stats</h2>
           <ul className="stat-list">
                 {stats.map((stat) => (
                   <li className="item" key={stat.id}><span className="label">{stat.label}</span>

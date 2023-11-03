@@ -2,7 +2,7 @@ import styled from './styled.css';
 
 const GetUserElem = ({ user }) => {
 	return (
-        <div class="user-info container">
+        <div class="styled container">
             <div class="user-foto">
 			 <img src={user.avatar} alt="User avata" className="avatar"/>
             <p class="user-name">{user.username}</p>

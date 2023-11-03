@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import {}  from './styled.css';
 
 function TransactionHistory({items}){
     return (
         <table className='transaction-history'>
-            <thead>
+            <thead className="trans-caption">
                 <tr>
                     <th className="type">Type</th>
                     <th className="type">Amount</th>
@@ -12,7 +13,7 @@ function TransactionHistory({items}){
             </thead>
             <tbody>
                 {items.map((item) => (
-                    <tr className="type" key={item.id}>
+                    <tr className="type-item" key={item.id}>
                         <td className="amount">{item.type}</td>
                         <td className="amount">{item.amount}</td>
                         <td className="amount">{item.currency}</td>

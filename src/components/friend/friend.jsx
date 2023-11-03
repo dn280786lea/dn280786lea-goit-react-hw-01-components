@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
+import {}  from './styled.css';
 
 function FriendListItem  ({friends}){
       return (
-            <ul className="friend-list">
+            <ul className="friends-list">
             {friends.map((friend) => (
-            <li className="item" key={friend.id}>
-            <span className="status">{friend.isOnline}</span>
-            <img className="avatar" src={friend.avatar} alt={friend.name} width="70" />
-            <p className="name">{friend.name}</p>
+            <li className="item-friend" key={friend.id}>
+            <span className="status-friend">{friend.isOnline}</span>
+            <img className="avatar-friend" src={friend.avatar} alt={friend.name} width="70" />
+            <p className="name-friend">{friend.name}</p>
             </li> ))}
       </ul>
 

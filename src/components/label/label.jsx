@@ -1,4 +1,4 @@
-import styled from './styled.css';
+import styles from './styles.css';
 
 const Statistics = ({ title ,stats }) => {
   return (

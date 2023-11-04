@@ -8,8 +8,6 @@ ul,li{
     background: linear-gradient(to right bottom, #93e8f3, #293f50);
 }
 .user_secion{
-background-color: aliceblue;
-
 display: flex;
 justify-content: center;
 padding-top: 20px;

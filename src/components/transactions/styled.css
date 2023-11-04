@@ -1,6 +1,3 @@
-.transaction_secion{
-background-color: aliceblue;
-}
 
 .transaction-history {
     width: 500px;
@@ -56,6 +53,4 @@ background-color: aliceblue;
         .odd{
             background-color:whitesmoke;
         }
-        .col{
-            background-color: green;
-        }
+       

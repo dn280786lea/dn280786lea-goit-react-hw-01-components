@@ -21,7 +21,7 @@ export const App = () => {
       <section className="user_secion"><GetUserElem user={user} /></section>
       <section className="statistics_secion"><Statistics title="Upload stats" stats={label} /></section>
       <section className="friend_secion" >< FriendListItem friends={friend} /></section> 
-      <section className="transaction_secion" ><TransactionHistory items={transaction} /></section>  
+      <section className="transaction_section" ><TransactionHistory items={transaction} /></section>  
     </div>
   );
 };

@@ -1,13 +1,13 @@
+.transaction_section{
+padding: 40px;
 
-.transaction-history {
-    width: 500px;
-    height: 200px;
-    margin-left: 5px;
-    display: inline-table;
-    justify-self: unset;
 }
 
-.transaction-history,
+.transaction-history {
+display: inline-block;
+}
+
+.transaction-hitory,
 .type,
 .amount {
     text-align: center;
@@ -26,7 +26,7 @@
     background-color:rgb(0, 217, 255)
 }
 
-* {
+ *{
     text-align: center;
 }
 .type{

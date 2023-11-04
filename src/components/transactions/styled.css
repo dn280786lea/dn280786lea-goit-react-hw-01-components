@@ -13,6 +13,7 @@ background-color: aliceblue;
 .type,
 .amount {
     text-align: center;
+    margin-left: 500px;
 }
 
 .type,

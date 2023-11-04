@@ -2,15 +2,16 @@
 .transaction-history {
     width: 500px;
     height: 200px;
-    float: left;
     margin-left: 5px;
+    display: inline-table;
+    justify-self: unset;
 }
 
 .transaction-history,
 .type,
 .amount {
     text-align: center;
-    margin-left: 500px;
+   
 }
 
 .type,

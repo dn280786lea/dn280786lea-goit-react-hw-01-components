@@ -1,3 +1,7 @@
+.transaction_secion{
+background-color: aliceblue;
+}
+
 .transaction-history {
     width: 500px;
     height: 200px;
@@ -9,7 +13,6 @@
 .type,
 .amount {
     text-align: center;
-    border: 2px solid grey;
 }
 
 .type,
@@ -45,5 +48,13 @@
             color:grey;
 
         }
+        .even{
+            background-color:grey;
+        }
 
-        
+        .odd{
+            background-color:whitesmoke;
+        }
+        .col{
+            background-color: green;
+        }

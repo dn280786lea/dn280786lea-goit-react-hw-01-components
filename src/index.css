@@ -16,3 +16,14 @@ code {
 ul,li{
   text-decoration:none;
 }
+.main-container{
+  background-color: aliceblue;
+}
+
+.statistics_secion {
+  background-color: aliceblue;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

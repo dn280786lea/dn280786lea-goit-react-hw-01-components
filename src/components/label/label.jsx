@@ -1,19 +1,24 @@
-import {} from './styled.css';
 
-const Statistics = ({ title ,stats }) => {
+import { getRandomColor,Label,Title,List,Percentage,Item,Labeler } from './styled.js'
+
+
+  const Statistics = ({ title, stats }) => {
+
   return (
-      <div className="label-info label-container ">
-          <h2 className="title-label">Upload stats</h2>
-          <ul className="stat-list">
+      <Label>
+          <Title>Upload stats</Title>
+          <List>
                 {stats.map((stat) => (
-                  <li className="item" key={stat.id}><span className="label">{stat.label}</span>
-                  <span className="percentage">{stat.percentage}</span></li>
+                  <Item key={stat.id} style={{ backgroundColor: getRandomColor() }}>
+                    <Labeler>{stat.label}</Labeler>
+                  <Percentage>{stat.percentage}%</Percentage></Item>
                       ))}
-              </ul>
-		</div>
+              </List>
+		</Label>
  );
 }
 
 
 export default Statistics
+
 

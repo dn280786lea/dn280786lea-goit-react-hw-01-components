@@ -17,11 +17,11 @@ import transaction from './data/transactions.json';
 
 export const App = () => {
   return (
-    <div>
-      <section class="user_secion"><GetUserElem user={user} /></section>
-      <section class="statistics_secion"><Statistics title="Upload stats" stats={label} /></section>
-      <section class="friend_secion" >< FriendListItem friends={friend} /></section> 
-      <section class="transaction_secion" ><TransactionHistory items={transaction} /></section>  
+    <div className='main-container'>
+      <section className="user_secion"><GetUserElem user={user} /></section>
+      <section className="statistics_secion"><Statistics title="Upload stats" stats={label} /></section>
+      <section className="friend_secion" >< FriendListItem friends={friend} /></section> 
+      <section className="transaction_secion" ><TransactionHistory items={transaction} /></section>  
     </div>
   );
 };

@@ -9,21 +9,22 @@ ul,li{
 }
 .user_secion{
 background-color: aliceblue;
-padding: 50px;
+
 display: flex;
 justify-content: center;
-
+padding-top: 20px;
 }
 
 .avatar{
     width: 100px;
 }
 .user-info{
-    border:1px solid grey;
+    border:1px solid darkgray;
     width: 300px;
     height: auto;
     background-color:white;
     border-radius: 5%;
+    box-shadow: 10px 5px 5px grey;
 
 }
 
@@ -47,26 +48,29 @@ justify-content: center;
 .user-name{
     font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 20px;
 }
 
 .user-tag{
     font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 14px;
         color: darkgray;
 }
 
 .stats{
 margin-top: 20px;
-    gap: 40px;
+    gap: 35px;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    background-color: aliceblue;
-        border-top: 1px solid darkgray;
-
+    background-color: rgb(210, 231, 242);
+    border-top: 1px solid darkgray;
+}
+.status-follower{
+margin-top: 10px;
 
 }
 .label{
@@ -76,23 +80,25 @@ margin-top: 20px;
             line-height: 14px;
             color: darkgray;
             padding-right: 8px;
+           
 
 
 
 }
 .quantity{
-    display: flex;
-            font-family: 'Roboto', sans-serif;
+                display: flex;
+                font-family: 'Roboto', sans-serif;
                 font-weight: 900;
-                font-size: 10px;
+                font-size: 14px;
                 padding-right: 8px;
                 padding-top: 15px;
                 margin: auto;
-               text-align: center;
-            padding-bottom: 20px;
+                text-align: center;
+                padding-bottom: 20px;
 }
 .stats-line{
     position: relative;
+    
 }
 
 

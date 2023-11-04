@@ -12,8 +12,8 @@ function TransactionHistory({items}){
                 </tr>
             </thead>
             <tbody>
-                {items.map((item) => (
-                    <tr className="type-item" key={item.id}>
+                {items.map((item,index) => (
+                    <tr key={item.id} className={index % 2 === 0 ? 'even' : 'odd'}>
                         <td className="amount">{item.type}</td>
                         <td className="amount">{item.amount}</td>
                         <td className="amount">{item.currency}</td>

@@ -2,23 +2,22 @@ import {}  from './styled.css';
 
 const GetUserElem = ({ user }) => {
 	return (
-        <div class="user-info container">
-            <div class="user-foto">
+        <div className="user-info container">
+            <div className="user-foto">
 			 <img src={user.avatar} alt="User avata" className="avatar"/>
-            <p class="user-name">{user.username}</p>
-            <p class="user-tag">{user.tag}</p>
-                <p class="user-tag">{user.location}</p>
+            <p className="user-name">{user.username}</p>
+            <p className="user-tag">{user.tag}</p>
+                <p className="user-tag">{user.location}</p>
             </div>
                 <ul className="stats ">
-                    <div className="stats-line">
-                <li><span className="label">followers</span>
+
+                <li className="status-follower"><span className="label">followers</span>
                             <span className="quantity">{user.stats.followers}</span></li>
-                </div>
-                 <div className="stats-line">
-                <li><span className="label with-line">views</span>
+
+                <li  className="status-follower"><span className="label with-line">views</span>
                         <span className="quantity">{user.stats.views}</span></li>
-                </div> 
-                <li><span className="label">likes</span>
+
+                <li  className="status-follower"><span className="label">likes</span>
                         <span className="quantity">{user.stats.likes}</span></li>
     
                 </ul>

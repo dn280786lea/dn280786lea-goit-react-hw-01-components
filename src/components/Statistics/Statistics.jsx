@@ -6,7 +6,7 @@ import {
   Percentage,
   Item,
   Labeler,
-} from './styled.js';
+} from './Statistics.styled.js';
 
 const Statistics = ({ title, stats }) => {
   return (

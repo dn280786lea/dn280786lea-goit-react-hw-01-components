@@ -1,8 +1,8 @@
 import React from 'react';
-import GetUserElem from '../components/user/user';
-import Statistics from '../components/label/label';
-import FriendListItem from '../components/friend/friend'; 
-import TransactionHistory from '../components/transactions/transaction'; 
+import GetUserElem from './user/GetUserElem';
+import Statistics from './Statistics/Statistics';
+import FriendListItem from './FriendListItem/FriendListItem'; 
+import TransactionHistory from './transactions/TransactionHistory'; 
 
 
 

@@ -1,4 +1,4 @@
-import {}  from './styled.css';
+import {}  from './GetUserElem.styled.css';
 
 const GetUserElem = ({ user }) => {
 	return (

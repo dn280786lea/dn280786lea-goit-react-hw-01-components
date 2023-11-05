@@ -6,7 +6,7 @@ import { getRandomColor,Label,Title,List,Percentage,Item,Labeler } from './style
 
   return (
       <Label>
-          <Title>Upload stats</Title>
+          {title &&<Title>{title}</Title>}
           <List>
                 {stats.map((stat) => (
                   <Item key={stat.id} style={{ backgroundColor: getRandomColor() }}>

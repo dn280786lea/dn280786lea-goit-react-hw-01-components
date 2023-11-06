@@ -26,12 +26,18 @@
   width: 400px;
   margin: auto;
   margin-top: 20px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .name {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 20px;
-  margin-left: 40px;
+  margin-left: 100px;
+}
+.avatarus {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  padding-left: 40px;
 }
